@@ -1,0 +1,13 @@
+extends layout
+block content
+	div#contactwrapper
+		p This is contact us page created by Mr.#{user.fullname} from thaiba
+		div.userprofile
+			if typeof user !== 'undefined'
+				span #{user.fullname}
+				span Email: #{user.email}
+				br
+				span Profile Picture #{user.profilePic}
+				br
+				img(src=user.profilePic, alt="image profile photo")
+				span #{title}

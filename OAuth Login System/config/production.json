@@ -1,0 +1,21 @@
+{
+	"dbURL":"mongodb://shrawanlakhe:058labihsot@ds041583.mongolab.com:41583/oauthlogin",
+	"sessionSecret":"JLI980UIU48309SDFAI983249RYU33JKUET8329HJ3004",
+	"facebook":{
+		"appID":"688383451292373",
+		"appSecret":"9ad1748937c37d9e65629e5d18ce21fe",
+		"callbackURL":"http://localhost:9006/auth/facebook/callback"
+	},
+	"twitter":{
+		"accessToken":"537319080-CYEq4RSwxfjVicms3jmuNvxbqhDeAHii2tK0KO7L",
+		"accessTokenSecret":"ZwhDvz82GrGwMYk4874ofn3TYqcGRaju5GT37wDsKzR8e",
+		"consumerKey":"5KaAsRWUAzWgbRXIsPJ67Sh6M",
+		"consumerSecret":"z5EFMga3GnXDHZmF0nFnqSS7ykBjFgAcb3jnsJ8X9cUssYAJde",
+		"callbackURL":"http://127.0.0.1:9006/auth/twitter/callback"
+	},
+	"linkedin":{
+		"consumerKey":"757k72crf4aiye",
+		"consumerSecret":"S0FnefqtsxNinYP1",
+		"callbackURL":"http://127.0.0.1:9006/auth/linkedin/callback"
+	}
+}
